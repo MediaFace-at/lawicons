@@ -1,18 +1,19 @@
 @font-face {
-  font-family: "lawicon";
-  src: url("fonts/lawicon.eot?poa842");
-  src: url("fonts/lawicon.eot?poa842#iefix") format("embedded-opentype"),
-    url("fonts/lawicon.ttf?poa842") format("truetype"),
-    url("fonts/lawicon.woff?poa842") format("woff"),
-    url("fonts/lawicon.svg?poa842#lawicon") format("svg");
+  font-family: 'lawicons';
+  src:  url('fonts/lawicons.eot?y3bk9d');
+  src:  url('fonts/lawicons.eot?y3bk9d#iefix') format('embedded-opentype'),
+    url('fonts/lawicons.ttf?y3bk9d') format('truetype'),
+    url('fonts/lawicons.woff?y3bk9d') format('woff'),
+    url('fonts/lawicons.svg?y3bk9d#lawicons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="lawicon-"],
-[class*=" lawicon-"] {
-  font-family: "lawicon" !important;
+[class^="lawicon-"], [class*=" lawicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'lawicons' !important;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -23,10 +24,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.lawicons {
-  font-size: 5em;
-  color: var(--blue);
-}
+
 .lawicon-book:before {
   content: "\e900";
 }
@@ -36,54 +34,8 @@
 .lawicon-finance:before {
   content: "\e902";
 }
-.lawicon-people .path1:before {
+.lawicon-people:before {
   content: "\e903";
-  color: rgb(0, 0, 0);
-}
-.lawicon-people .path2:before {
-  content: "\e904";
-  margin-left: -0.994140625em;
-  color: rgb(0, 0, 0);
-}
-.lawicon-people .path3:before {
-  content: "\e905";
-  margin-left: -0.994140625em;
-  color: rgb(0, 0, 0);
-}
-.lawicon-people .path4:before {
-  content: "\e906";
-  margin-left: -0.994140625em;
-  color: rgb(0, 0, 0);
-}
-.lawicon-people .path5:before {
-  content: "\e907";
-  margin-left: -0.994140625em;
-  color: rgb(0, 0, 0);
-}
-.lawicon-people .path6:before {
-  content: "\e908";
-  margin-left: -0.994140625em;
-  color: rgb(0, 0, 0);
-}
-.lawicon-people .path7:before {
-  content: "\e909";
-  margin-left: -0.994140625em;
-  color: rgb(0, 0, 0);
-}
-.lawicon-people .path8:before {
-  content: "\e90a";
-  margin-left: -0.994140625em;
-  color: rgb(0, 0, 0);
-}
-.lawicon-people .path9:before {
-  content: "\e90b";
-  margin-left: -0.994140625em;
-  color: rgb(255, 255, 255);
-}
-.lawicon-people .path10:before {
-  content: "\e90c";
-  margin-left: -0.994140625em;
-  color: rgb(0, 0, 0);
 }
 .lawicon-scale:before {
   content: "\e90d";
