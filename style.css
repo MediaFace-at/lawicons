@@ -1,15 +1,16 @@
 @font-face {
   font-family: 'lawicons';
-  src:  url('fonts/lawicons.eot?y3bk9d');
-  src:  url('fonts/lawicons.eot?y3bk9d#iefix') format('embedded-opentype'),
-    url('fonts/lawicons.ttf?y3bk9d') format('truetype'),
-    url('fonts/lawicons.woff?y3bk9d') format('woff'),
-    url('fonts/lawicons.svg?y3bk9d#lawicons') format('svg');
+  src:  url('fonts/lawicons.eot?xwq874');
+  src:  url('fonts/lawicons.eot?xwq874#iefix') format('embedded-opentype'),
+    url('fonts/lawicons.ttf?xwq874') format('truetype'),
+    url('fonts/lawicons.woff?xwq874') format('woff'),
+    url('fonts/lawicons.svg?xwq874#lawicons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
-[class^="lawicon-"], [class*=" lawicon-"] {
+
+.lawicon {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'lawicons' !important;
   speak: never;
@@ -24,24 +25,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.lawicon-book:before {
+.lawicons-lawicon-divorce:before {
+  content: "\e904";
+}
+.lawicons-lawicon-book:before {
   content: "\e900";
 }
-.lawicon-paper:before {
+.lawicons-lawicon-paper:before {
   content: "\e901";
 }
-.lawicon-finance:before {
+.lawicons-lawicon-finance:before {
   content: "\e902";
 }
-.lawicon-people:before {
+.lawicons-lawicon-people:before {
   content: "\e903";
 }
-.lawicon-scale:before {
+.lawicons-lawicon-scale:before {
   content: "\e90d";
 }
-.lawicon-stamp:before {
+.lawicons-lawicon-stamp:before {
   content: "\e90e";
 }
-.lawicon-hammer:before {
+.lawicons-lawicon-hammer:before {
   content: "\e90f";
 }
